@@ -1,0 +1,65 @@
+
+
+/* Button CSS */
+
+.btn{
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem ;
+  border-radius: 10px;
+  border: none;
+  /* background-color: #646cff; */
+  cursor: pointer;
+}
+
+.btn-primary{
+   background: linear-gradient(to bottom, #6dcdf0 10%,#57c6ee 20%,#068ad1 61%,#068ad1 100%);
+}
+.secondary-btn {
+  background-color: transparent;
+  margin:0 1rem;
+}
+
+.btn-primary:hover{
+  box-shadow: inset 0 0 0 0.2rem #b1b1b4;
+  background-color: transparent;
+}
+
+.secondary-btn:hover{
+  /* background-color: #646cff; */
+  background: linear-gradient(to bottom, #4acbf9 1%,#068ad1 41%,#068ad1 100%);
+  box-shadow: inset 0 0 0 0.2rem #b1b1b4;
+};
+
+/* CSS for content */
+
+.container {
+    width: 100%;
+    padding: 1rem 3.5rem;
+  }
+  .grid{
+    display: grid;
+    margin-top: 2rem;
+    align-items: center;
+    color: #fff;
+  }
+
+  .grid h1{
+        font-size: 2rem;
+    }
+
+  .grid:first-child{
+      margin-bottom: 0.3rem;
+    }
+   .grid p{
+      color: rgb(221, 218, 218);
+      font-weight: 700;
+      margin: 1rem 0 1rem 0;
+      font-size: 1.2rem;
+  }
+
+  .grid-two-cols{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  

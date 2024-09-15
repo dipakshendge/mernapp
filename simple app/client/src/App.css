@@ -1,0 +1,73 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0.5rem;
+  background-color: black;
+  color: #fff;
+  
+}
+
+.img-comtainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* styling for form elements */
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.main-heading{
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+input,textarea{
+  width: 90%;
+  mask-border-outset:initial;
+  outline-color:#fff;
+  outline-offset: 0.1rem;
+  padding: 5px;
+  background-color: #3b3b3b;
+  color: #fff;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    
+}
+
+label,
+input,textarea {
+  display: block;
+  margin-bottom: 15px;
+  text-align: start;
+  border-radius: 5px;
+  padding: 10px 0;
+  line-height: 0.5rem;
+}
+
+a{
+  text-decoration: none;
+    color: #fff;
+}
+
+/* .admin{
+  display: flex;
+
+}
+
+.nav-container ul{
+  display: flex;
+  flex-direction: column;
+} */
+
+
+
+
+
+
+
